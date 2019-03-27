@@ -1,0 +1,25 @@
+{
+  "name": "koa-cli",
+  "version": "1.0.0",
+  "description": "koa2 脚手架",
+  "main": "main.js",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "debug": "^2.6.3",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "pug": "^2.0.0-rc.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "An英俊",
+  "license": "ISC"
+}
