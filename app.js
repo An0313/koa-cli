@@ -30,4 +30,4 @@ app.use(views('./app/view', {
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
 
-module.exports = app
+app.listen(3000);

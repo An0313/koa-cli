@@ -2,7 +2,7 @@
   "name": "koa-cli",
   "version": "1.0.0",
   "description": "koa2 脚手架",
-  "main": "main.js",
+  "main": "app.js",
   "dependencies": {
     "koa": "^2.7.0",
     "debug": "^2.6.3",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "node app.js"
   },
   "author": "An英俊",
   "license": "ISC"
